@@ -3,9 +3,9 @@ require 'benchmark'
 
 class QuestionTest < ActiveSupport::TestCase
   # test "cassandra insert test" do
+  puts "Create 1 Million Question Records With 4 Answers"
     Benchmark.bm do |bm|
       # joining an array of strings
-      puts "Create 1 Million Question Records With 4 Answers"
       bm.report do
         questions =[]
         (0..100).each do |author_nummer|
