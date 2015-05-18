@@ -2,7 +2,7 @@ require 'test_helper'
 require 'benchmark'
 
 class QuestionTest < ActiveSupport::TestCase
-  test "cassandra insert test" do
+  # test "cassandra insert test" do
     Benchmark.bm do |bm|
       # joining an array of strings
       puts "Create 1 Million Question Records With 4 Answers"
@@ -23,6 +23,6 @@ class QuestionTest < ActiveSupport::TestCase
       end
     end
     Question.connection.schema.truncate_table(:questions)
-  end
+  # end
 end
 
