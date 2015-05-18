@@ -1,23 +1,28 @@
 require 'test_helper'
 require 'benchmark'
-require Rails.root.join('app', 'models', 'answer.rb').to_s
 
 class QuestionTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
-
-  Benchmark.bm do |bm|
-    # joining an array of strings
-    bm.report "Create 1 Million Question Records With 4 Answers"  do
-      (0..1000000).each do
-        q = Question.create(question: 'was ist das ?', author_email: 'ac@me.hallo', author_name: 'ac')
-        (0..4).each do
-          a=Answer.create(answer: 'das ist es', question_id: q.id)
+  test "cassandra insert test" do
+    Benchmark.bm do |bm|
+      # joining an array of strings
+      puts "Create 1 Million Question Records With 4 Answers"
+      bm.report do
+        questions =[]
+        (0..100).each do |author_nummer|
+          (1..10000).each do |index|
+            antworten={}
+            (1..5).each do |anwsernum|
+              antworten["antwort_#{anwsernum}"] = anwsernum% 5 == 0
+            end
+            questions<< Question.new(answers: antworten, author_email: "author_email_#{author_nummer}@author_email.de", author_name: "author_#{author_nummer}", question: "frage #{index}")
+          end
+        end
+        Question.connection.batch do
+          questions.each(&:save)
         end
       end
     end
+    Question.connection.schema.truncate_table(:questions)
   end
-
-
 end
+

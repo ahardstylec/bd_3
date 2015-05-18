@@ -5,6 +5,7 @@ class Question
   key :id, :uuid, auto: true
   column :question, :text
   set :flaws, :text
-  column :author_name, :text
+  map :answers, :text, :boolean
   column :author_email, :text
+  column :author_name, :text
 end
