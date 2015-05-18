@@ -7,7 +7,7 @@ class QuestionTest < ActiveSupport::TestCase
   #   assert true
   # end
 
-  Benchmark.bm do |bm|
+  Benchmark.bm "Create 1 Million Question Records With 4 Answers" do |bm|
     # joining an array of strings
     bm.report do
       (0..1000000).each do
