@@ -46,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/test/models/question_test.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.32142857" vertical-offset="0" max-vertical-offset="616">
-              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+              <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -498,7 +498,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431939967078</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="bla">
+      <created>1431939994001</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1431939994001</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -625,7 +631,7 @@
     <entry file="file://$PROJECT_DIR$/test/models/question_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32142857" vertical-offset="0" max-vertical-offset="616">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
           <folding />
         </state>
       </provider>

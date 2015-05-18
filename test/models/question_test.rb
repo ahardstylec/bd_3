@@ -7,9 +7,9 @@ class QuestionTest < ActiveSupport::TestCase
   #   assert true
   # end
 
-  Benchmark.bm "Create 1 Million Question Records With 4 Answers" do |bm|
+  Benchmark.bm do |bm|
     # joining an array of strings
-    bm.report do
+    bm.report "Create 1 Million Question Records With 4 Answers"  do
       (0..1000000).each do
         q = Question.create(question: 'was ist das ?', author_email: 'ac@me.hallo', author_name: 'ac')
         (0..4).each do
