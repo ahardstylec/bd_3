@@ -10,7 +10,7 @@ class QuestionTest < ActiveSupport::TestCase
   Benchmark.bm do |bm|
     # joining an array of strings
     bm.report do
-      (0..10000).each do
+      (0..1000000).each do
         q = Question.create(question: 'was ist das ?', author_email: 'ac@me.hallo', author_name: 'ac')
         (0..4).each do
           a=Answer.create(answer: 'das ist es', question_id: q.id)
