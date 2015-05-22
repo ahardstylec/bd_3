@@ -56,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/lib/tasks/db_benchmark.rake">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.46753246" vertical-offset="0" max-vertical-offset="616">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -514,7 +514,13 @@
       <option name="project" value="LOCAL" />
       <updated>1432317200005</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="bla">
+      <created>1432317216714</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1432317216714</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -792,7 +798,7 @@
     <entry file="file://$PROJECT_DIR$/lib/tasks/db_benchmark.rake">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46753246" vertical-offset="0" max-vertical-offset="616">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding />
         </state>
       </provider>
