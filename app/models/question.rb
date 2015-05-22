@@ -11,7 +11,6 @@ class Question
 
   def self.bulk_insert(insert_multifier)
     Benchmark.measure do |bm|
-      questions =[]
       (1..100).each do |author_nummer|
         (1..10000*insert_multifier).each do |index|
           antworten={}
