@@ -25,7 +25,7 @@ class Question
 
   def self.select_from_author
     questions=nil
-    bench= Benchmark.measure { questions = Question.where(author_name: "author_1") }
+    bench= Benchmark.measure { questions = Question.where(author_name: "author_1").all }
     puts "select from author 1: #{questions.count}"
     puts bench
     bench
