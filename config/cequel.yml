@@ -5,6 +5,7 @@ development:
   max_retries: 3
   retry_delay: 0.5
   newrelic: false
+  timeout: 30
 
 test:
   host: '127.0.0.1'
@@ -13,6 +14,7 @@ test:
   max_retries: 3
   retry_delay: 0.5
   newrelic: false
+  timeout: 30
 
 production:
   hosts:
