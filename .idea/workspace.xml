@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4997a700-35fc-4401-8867-c5f5fe715de0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/cequel.yml" afterPath="$PROJECT_DIR$/config/cequel.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/db_benchmark.rake" afterPath="$PROJECT_DIR$/lib/tasks/db_benchmark.rake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -56,8 +55,8 @@
       <file leaf-file-name="db_benchmark.rake" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/tasks/db_benchmark.rake">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.116883114" vertical-offset="0" max-vertical-offset="616">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.20454545" vertical-offset="0" max-vertical-offset="616">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -565,7 +564,13 @@
       <option name="project" value="LOCAL" />
       <updated>1432546413672</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="bla">
+      <created>1432556514399</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1432556514399</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -850,8 +855,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/db_benchmark.rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.116883114" vertical-offset="0" max-vertical-offset="616">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.20454545" vertical-offset="0" max-vertical-offset="616">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           <folding />
         </state>
       </provider>
