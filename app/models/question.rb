@@ -10,7 +10,7 @@ class Question
   column :author_name, :text, :index => true
 
   def self.bulk_insert(insert_multifier)
-    Benchmark.measure do |bm|
+    puts bench = Benchmark.measure do |bm|
       (1..100).each do |author_nummer|
         (1..10000*insert_multifier).each do |index|
           antworten={}
@@ -21,6 +21,7 @@ class Question
         end
       end
     end
+    bench
   end
 
   def self.select_from_author
