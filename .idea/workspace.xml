@@ -4,7 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/test/test_helper.rb" line="6" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4997a700-35fc-4401-8867-c5f5fe715de0" name="Default" comment="">
+    <list default="true" id="4997a700-35fc-4401-8867-c5f5fe715de0" name="Default" comment="bla">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/question.rb" afterPath="$PROJECT_DIR$/app/models/question.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -75,8 +75,8 @@
       <file leaf-file-name="question.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/question.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8167539" vertical-offset="0" max-vertical-offset="954">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.43979058" vertical-offset="0" max-vertical-offset="918">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -650,7 +650,13 @@
       <option name="project" value="LOCAL" />
       <updated>1432674376035</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="bla">
+      <created>1432674444297</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1432674444297</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -935,8 +941,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/question.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8167539" vertical-offset="0" max-vertical-offset="954">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.43979058" vertical-offset="0" max-vertical-offset="918">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
