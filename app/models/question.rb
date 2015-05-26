@@ -12,6 +12,7 @@ class Question
   def self.bulk_insert(insert_multifier)
     puts bench = Benchmark.measure {
        (1..100).each do |author_nummer|
+         self.connection.batch({:unlogged => true}) do
         (1..10000*insert_multifier).each do |index|
           antworten={}
           (1..5).each do |anwsernum|
@@ -19,7 +20,8 @@ class Question
           end
           Question.create(answers: antworten, author_email: "author_email_#{author_nummer}@author_email.de", author_name: "author_#{author_nummer}", question: "frage #{index}")
         end
-       end
+        end
+           end
          }
     bench
   end
