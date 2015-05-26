@@ -12,7 +12,7 @@ class Question
   def self.bulk_insert(insert_multifier)
     puts bench = Benchmark.measure {
        (1..100).each do |author_nummer|
-         self.connection.batch({:unlogged => true}) do
+         self.connection.batch do
         (1..10000*insert_multifier).each do |index|
           antworten={}
           (1..5).each do |anwsernum|
