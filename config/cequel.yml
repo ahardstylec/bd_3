@@ -6,6 +6,8 @@ development:
   retry_delay: 0.5
   newrelic: false
   connect_timeout: 30
+  timeout: 30
+  idle_timeout: 30
 
 test:
   host: '127.0.0.1'
@@ -15,6 +17,8 @@ test:
   retry_delay: 0.5
   newrelic: false
   connect_timeout: 30
+  timeout: 30
+  idle_timeout: 30
 
 production:
   hosts:
